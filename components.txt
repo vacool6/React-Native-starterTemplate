@@ -1,0 +1,20 @@
+1. View : Is used to create container for other components to be viewed. Similar to 
+   div but with added functionality specific to mobile apps. Used to create layout
+   structure for other elements. It uses flex layout by default.
+
+2. TouchableOpacity : If we want to add any fade in opacity when clicked we can use it.
+   Used to create interactive components like button.
+
+3. ActivityIndicator : Used to create customizable spinners.
+
+4. Two important list components :
+ 
+   FlatList: To map over larger list for smooth scrolling.
+   Map: For smaller list.
+
+5. ScrollView: It can hold multiple components & views, providing a scrolling
+   container fo them. Similar to overflow.
+
+6. SafeAreaView: Provides a safe area for the components to be rendered without
+   being covered by devices hardware features like notch, home indicator/status bar.
+   Ensures that the app is displayed in the visible area.

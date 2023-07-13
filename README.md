@@ -1,14 +1,14 @@
-# Expo Router Example
+# React native starter template
 
-Use [`expo-router`](https://expo.github.io/router) to build native navigation using files in the `app/` directory.
+Quick Start with expo router: `npx create-expo-app@latest --example with-router`
 
-## 🚀 How to use
+1. Extra dependencies `npm i expo-font axios react-native-dotenv`
 
-```sh
-npx create-expo-app -e with-router
-```
+2. To start the project in dev mode:
+   `npm start`
 
-## 📝 Notes
+3. We can test the app in mobile devices by installing "Expo Go" on mobile.
+   `npm i -g expo-cli`
 
-- [Expo Router: Docs](https://expo.github.io/router)
-- [Expo Router: Repo](https://github.com/expo/router)
+4. To run the app:
+   `expo-cli start --tunnel`
