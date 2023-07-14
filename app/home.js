@@ -1,14 +1,11 @@
-import { SafeAreaView, ScrollView, View, Text, FlatList } from "react-native";
-import { Stack, useRouter } from "expo-router";
+import { SafeAreaView } from "react-native";
 //
-import Header from "../components/header";
+import Welcome from "../components/welcome/welcome";
 
 const Home = () => {
-  const router = useRouter();
-
   return (
     <SafeAreaView>
-      <Header />
+      <Welcome />
     </SafeAreaView>
   );
 };
